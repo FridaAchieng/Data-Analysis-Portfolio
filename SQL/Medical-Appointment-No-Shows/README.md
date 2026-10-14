@@ -4,4 +4,4 @@
 
 The Power BI dashboard explores medical appointment no-show patterns by age group, lead time, SMS reminders, days of the week, and neighbourhood.
 
-[View Dashboard (PDF)](Dashboard/Medical%20Appointment%20No%20Show%20Dashboard.pdf)
+[View Dashboard (PDF)](Dashboard/Medical%20Appointment%20No-Show%20Dashboard.pdf)
