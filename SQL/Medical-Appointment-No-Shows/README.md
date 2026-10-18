@@ -3,7 +3,7 @@
 **Tools:** SQL Server (cleaning, analysis, risk scoring) · Power BI (dashboard)
 **Links:** [Interactive dashboard](LINK) · [SQL scripts](LINK)
 
-![Dashboard](Dashboard/Dashboard1.png)
+![Dashboard](Dashboard/Dashboard1.PNG)
 
 ---
 
