@@ -115,7 +115,7 @@ Patients who received an SMS missed fewer appointments in every lead time bucket
 
 ### 4. A simple risk tier flags the bookings most likely to be missed
 
-![Risk tier](images/risk_tier.png)
+![Risk tier](Images/Risk%20Tier.PNG)
 
 High Risk appointments (31.33%) are missed about 3.6 times as often as Low Risk ones (8.69%). They make up 20.1% of bookings but about 31% of all no-shows. First-time patients are 56.4% of bookings and about 54% of no-shows, but they can't be scored because there is no earlier history for them. The tier combines prior no-shows with lead time, so part of the separation comes from the lead time effect in Insight 1.
 
