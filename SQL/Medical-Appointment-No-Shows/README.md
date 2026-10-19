@@ -3,7 +3,7 @@
 **Tools:** SQL Server (cleaning, analysis, risk scoring) · Power BI (dashboard)
 **Links:** [Interactive dashboard](LINK) · [SQL scripts](LINK)
 
-![Dashboard](Dashboard/Dahboard1.PNG)
+![Dashboard](Images/Dashboard1.PNG)
 
 ---
 
@@ -32,8 +32,6 @@ To find out which appointments are most likely to be missed and why, and to turn
 
 ## Executive Summary
 
-**Written for the clinic operations manager.**
-
 Of 110,521 appointments, 20.19% were no-shows, about 22,300 empty slots. They are not random, and three messages matter most:
 
 1. **Lead time is the biggest driver.** The no-show rate rises from 4.65% for same-day bookings to 32.06% for bookings made 8 or more days ahead.
@@ -42,7 +40,7 @@ Of 110,521 appointments, 20.19% were no-shows, about 22,300 empty slots. They ar
 
 Younger patients also miss more often: teenagers (25.95%) compared with seniors (15.31%).
 
-![Dashboard snapshot](images/dashboard.png)
+![Dashboard snapshot](Images/Dashboard1.PNG)
 
 ---
 
@@ -66,7 +64,7 @@ Bookings were made between 10 November 2015 and 8 June 2016.
 
 ### Data Quality
 
-| Issue found | What I did | Rows affected | Why |
+| Issue found | Action | Rows affected | Why |
 |---|---|---|---|
 | Negative ages | Deleted the row | 1 | Age can't be negative, so it's a data entry error |
 | Date formats incorrect | Converted `ScheduledDay` to DATETIME and `AppointmentDay` to DATE | All rows (none removed) | Dates had to be proper date types to calculate lead time correctly |
@@ -87,7 +85,7 @@ Bookings were made between 10 November 2015 and 8 June 2016.
 | `prior_appointments`, `prior_no_shows`, `prior_no_show_rate` | SQL | A patient's earlier appointments, earlier no-shows and their rate |
 | `risk_tier` | SQL | High, Medium, Low, or New Patient - Monitor |
 
-Lead time buckets and age groups were created in SQL for the analysis and recreated in Power BI for the dashboard. The cleaned table and the risk scoring view were loaded into Power BI to build the dashboard.
+Lead Time Days, Lead time buckets and age groups were created in SQL for the analysis and recreated in Power BI for the dashboard. The cleaned table and the risk scoring view were loaded into Power BI to build the dashboard.
 
 **Risk tier rule:** returning patients are High Risk if at least half of their prior appointments were missed or the booking was made 8+ days ahead; Medium if at least 20% were missed or it was booked 4-7 days ahead; otherwise Low. First-time patients are labelled New Patient - Monitor.
 
