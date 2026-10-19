@@ -11,7 +11,7 @@
 
 Missed appointments waste clinician time, rooms and staff. They delay care for the patient who missed the visit, and also for other patients who could have used the slot. Clinics usually treat every booking as equally reliable, so they only learn which appointments were at risk after the slot sits empty. This affects clinic management and scheduling staff (lost capacity), clinicians (idle gaps) and patients (delayed care and longer waits).
 
-This project uses the public [Medical Appointment No-Shows dataset](DATASET_LINK) from Kaggle, with appointment records from public clinics in Brazil. Working as a data analyst on a portfolio project, I set out to find which appointments are at risk before they are missed. I used SQL Server to clean and analyse the data and Power BI to build the dashboard.
+This project uses the public [Medical Appointment No-Shows dataset](https://www.kaggle.com/datasets/joniarroba/noshowappointments) from Kaggle, with appointment records from public clinics in Brazil. Working as a data analyst on a portfolio project, I set out to find which appointments are at risk before they are missed. I used SQL Server to clean and analyse the data and Power BI to build the dashboard.
 
 The question: **which bookings are most likely to be missed, and what can a clinic do about it?**
 
@@ -48,7 +48,7 @@ Younger patients also miss more often: teenagers (25.95%) compared with seniors 
 
 ### Overview
 
-The data is one table of appointment records from the [Kaggle Medical Appointment No-Shows dataset](DATASET_LINK). Each row is one booked appointment.
+The data is one table of appointment records from the [Kaggle Medical Appointment No-Shows dataset(https://www.kaggle.com/datasets/joniarroba/noshowappointments). Each row is one booked appointment.
 
 | | Raw | After cleaning |
 |---|---|---|
