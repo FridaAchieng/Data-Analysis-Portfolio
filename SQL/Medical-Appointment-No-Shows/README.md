@@ -121,7 +121,7 @@ High Risk appointments (31.33%) are missed about 3.6 times as often as Low Risk 
 
 ### Supporting view: neighbourhoods
 
-![Neighbourhoods](images/neighbourhoods.png)
+![Neighbourhoods](Images/Neighbourhoods.PNG)
 
 Among neighbourhoods with 100 or more appointments, Santos Dumont has the highest no-show rate (28.92% across 1,276 appointments). Itararé produces the most missed appointments of the top group, about 920 from 3,514 appointments at a 26.27% rate, so it is a good place to pilot an intervention. Differences between neighbourhoods may reflect patient mix, such as age and lead time, rather than location.
 
