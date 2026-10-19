@@ -159,10 +159,3 @@ These are suggestions to test, not proven fixes. A pilot with a before-and-after
 - **Neighbourhoods.** Those with fewer than 100 appointments are excluded from the ranking. The cut-off is a judgement call, and differences between neighbourhoods may reflect patient mix rather than location.
 - **Associations, not causes.** The findings show patterns, and the risk tiers were tested on the same data they were built from.
 
-# Medical Appointment No-Shows Analysis
-
-## Dashboard Preview
-
-The Power BI dashboard explores medical appointment no-show patterns by age group, lead time, SMS reminders, days of the week, and neighbourhood.
-
-[View Dashboard (PDF)](Dashboard/Medical%20Appointment%20No-Show%20Dashboard.pdf)
