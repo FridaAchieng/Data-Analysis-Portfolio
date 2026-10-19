@@ -48,7 +48,7 @@ Younger patients also miss more often: teenagers (25.95%) compared with seniors 
 
 ### Overview
 
-The data is one table of appointment records from the [Kaggle Medical Appointment No-Shows dataset(https://www.kaggle.com/datasets/joniarroba/noshowappointments). Each row is one booked appointment.
+The data is one table of appointment records from the [Kaggle Medical Appointment No-Shows dataset[Medical Appointment No-Shows dataset](https://www.kaggle.com/datasets/joniarroba/noshowappointments). Each row is one booked appointment.
 
 | | Raw | After cleaning |
 |---|---|---|
