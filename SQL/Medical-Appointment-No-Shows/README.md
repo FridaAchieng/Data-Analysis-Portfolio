@@ -97,7 +97,7 @@ Lead Time Days, Lead time buckets and age groups were created in SQL for the ana
 
 ### 1. Longer lead times mean more missed appointments
 
-![Lead time](images/lead_time.png)
+![Lead time](Images/Lead%20Time%20Buckets.PNG)
 
 The rate rises at every step, from 4.65% for same-day bookings to 32.06% for bookings made 8+ days ahead. Bookings made 8+ days ahead are missed about 1.4 times as often as those made 1-3 days ahead, and about 7 times as often as same-day bookings. Lead time is also the one driver a clinic controls through how it schedules.
 
