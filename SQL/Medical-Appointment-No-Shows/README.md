@@ -109,7 +109,7 @@ Teenagers (25.95%) miss appointments about 1.7 times as often as seniors (15.31%
 
 ### 3. SMS reminders are linked to better attendance, mostly for long-lead bookings
 
-![SMS by lead time](images/sms_lead_time.png)
+![SMS by lead time](Images/Lead%20Time%20Buckets.PNG)
 
 Patients who received an SMS missed fewer appointments in every lead time bucket, and the gap grows with lead time: 36.05% vs 29.41% for 8+ days, 27.11% vs 23.97% for 4-7 days, and 22.99% vs 21.30% for 1-3 days. Same-day appointments are excluded because no SMS is sent for them. This is an association, not proof that SMS causes the difference.
 
