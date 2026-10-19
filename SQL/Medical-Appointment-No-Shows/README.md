@@ -89,7 +89,7 @@ Lead Time Days, Lead time buckets and age groups were created in SQL for the ana
 
 **Risk tier rule:** returning patients are High Risk if at least half of their prior appointments were missed or the booking was made 8+ days ahead; Medium if at least 20% were missed or it was booked 4-7 days ahead; otherwise Low. First-time patients are labelled New Patient - Monitor.
 
-**Scripts:** [Data Exploration](SQL-Scripts/Data%20Exploration.sql) · [Data Cleaning](SQL-Scripts/Data%20Cleaning.sql) · [Data Analysis](SQL-Scripts/Data%20Analysis.sql) · [Patient Level Scoring](LINK)
+**Scripts:** [Data Exploration](SQL-Scripts/Data%20Exploration.sql) · [Data Cleaning](SQL-Scripts/Data%20Cleaning.sql) · [Data Analysis](SQL-Scripts/Data%20Analysis.sql) · [Patient Level Scoring](SQL-Scripts/Patient%20Level%20Scoring.sql)
 
 ---
 
