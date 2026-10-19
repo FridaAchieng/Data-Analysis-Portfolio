@@ -117,7 +117,11 @@ Patients who received an SMS missed fewer appointments in every lead time bucket
 
 ![Risk tier](Images/Risk%20Tier.PNG)
 
-High Risk appointments (31.33%) are missed about 3.6 times as often as Low Risk ones (8.69%). They make up 20.1% of bookings but about 31% of all no-shows. First-time patients are 56.4% of bookings and about 54% of no-shows, but they can't be scored because there is no earlier history for them. The tier combines prior no-shows with lead time, so part of the separation comes from the lead time effect in Insight 1.
+Each booking was placed in a risk tier based on the patient's earlier appointments and how far ahead it was booked. High Risk bookings were missed 31.33% of the time, against 8.69% for Low Risk, about 3.6 times as often.
+ 
+High Risk is 20.1% of bookings but about 31% of all no-shows, so it is a short list worth following up. Over half of bookings (56.4%) are first-time patients with no history to score, so they sit in New Patient - Monitor (19.17%).
+ 
+Because lead time is part of the rule, the tiers partly reflect the lead time effect in Insight 1.
 
 ### Supporting view: neighbourhoods
 
@@ -149,13 +153,11 @@ These are suggestions to test, not proven fixes. A pilot with a before-and-after
 - **No-show:** an appointment counts as a no-show when `No_show = 'Yes'`.
 - **Lead time:** the number of days between the booking date and the appointment date.
 - **Repeated patients:** repeated PatientIds were kept, because one patient can book several appointments.
-
 ### Caveats
-
+ 
 - **Public dataset.** The data comes from Kaggle and is used for a portfolio project, not for a real clinic's operations.
 - **SMS comparison.** Same-day appointments are excluded, because no SMS is sent for them.
 - **Short time window.** Appointments cover about six weeks (29 April to 8 June 2016), which is too short to show seasonal patterns, and the findings may not hold for other periods.
 - **Short patient history.** Patient history only covers this window, so 56.4% of bookings are labelled "New Patient - Monitor", even if the patient has visited before.
 - **Neighbourhoods.** Those with fewer than 100 appointments are excluded from the ranking. The cut-off is a judgement call, and differences between neighbourhoods may reflect patient mix rather than location.
 - **Associations, not causes.** The findings show patterns, and the risk tiers were tested on the same data they were built from.
-
