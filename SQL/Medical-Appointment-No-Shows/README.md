@@ -103,7 +103,7 @@ The rate rises at every step, from 4.65% for same-day bookings to 32.06% for boo
 
 ### 2. Teenagers and young adults miss appointments most often
 
-![Age group](images/age_group.png)
+![Age group](Images/Age%20Group.PNG)
 
 Teenagers (25.95%) miss appointments about 1.7 times as often as seniors (15.31%), a gap of 10.6 points. Teenagers and young adults (23.11%) sit above the 20.19% average, while adults (18.81%) and seniors sit below it. This shows a pattern, not a cause.
 
