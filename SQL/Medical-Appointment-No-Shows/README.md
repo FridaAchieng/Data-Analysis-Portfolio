@@ -1,7 +1,7 @@
 # Medical Appointment No-Show Analysis
 
 **Tools:** SQL Server (cleaning, analysis, risk scoring) · Power BI (dashboard)
-**Links:** [Interactive dashboard](LINK) · [SQL scripts](LINK)
+**Links:** [Interactive dashboard](LINK) · [SQL scripts](Medical-Appointment-No-Shows/SQL-Scripts)
 
 ![Dashboard](Images/Dashboard1.PNG)
 
